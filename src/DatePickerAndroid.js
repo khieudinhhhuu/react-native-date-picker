@@ -16,7 +16,7 @@ const NativeDatePicker =
     : null
 
 const height = 180
-const timeModeWidth = 240
+const timeModeWidth = "100%"
 const defaultWidth = 310
 
 const NativePicker = TurboModuleRegistry

@@ -53,7 +53,7 @@ public class HourWheel extends Wheel {
 
     @Override
     public String getFormatPattern() {
-        return state.derived.usesAmPm() ? "h": "HH";
+        return state.derived.usesAmPm() ? "hh": "HH";
     }
 
     @Override
